@@ -6,6 +6,9 @@
       <change beforePath="$PROJECT_DIR$/agenda/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/agenda.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/agenda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/model-footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/model-footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/model-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/model-header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,26 +89,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="412" y="198" width="598" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1589898359437" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590114474738">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590955409465">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1590114474738" />
-    <state width="1276" height="242" key="GridCell.Tab.0.bottom" timestamp="1590853890965">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1590955409465" />
+    <state width="1276" height="100" key="GridCell.Tab.0.bottom" timestamp="1591368068356">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="242" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1590853890965" />
-    <state width="1276" height="242" key="GridCell.Tab.0.center" timestamp="1590853890965">
+    <state width="1276" height="100" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1591368068356" />
+    <state width="1276" height="100" key="GridCell.Tab.0.center" timestamp="1591368068356">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="242" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1590853890965" />
-    <state width="1276" height="242" key="GridCell.Tab.0.left" timestamp="1590853890964">
+    <state width="1276" height="100" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1591368068356" />
+    <state width="1276" height="100" key="GridCell.Tab.0.left" timestamp="1591368068355">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="242" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1590853890964" />
-    <state width="1276" height="242" key="GridCell.Tab.0.right" timestamp="1590853890965">
+    <state width="1276" height="100" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1591368068355" />
+    <state width="1276" height="100" key="GridCell.Tab.0.right" timestamp="1591368068356">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="242" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1590853890965" />
+    <state width="1276" height="100" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1591368068356" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1589898200828">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

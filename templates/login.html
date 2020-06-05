@@ -7,22 +7,25 @@
 </head>
 <body>
 
-<h2>Login</h2>
-    <form action="submit" method="POST"> {% csrf_token %}
-        <div align="center">
-            <label>Usuário:</label>
-            <input type="text" name="username" placeholder="Digite seu usuário">
-            <label>Senha:</label>
-            <input type="password" name="password" placeholder="Digite sua senha">
-            <button type="submit">Entrar</button>
+<h2 class="text-center">Login</h2>
+    <div class="container">
+        <div class="row">
+            <form action="submit" method="POST" class="form-group"> {% csrf_token %}
+                <div align="center">
+                    <label>Usuário:</label>
+                    <input type="text" name="username" placeholder="Digite seu usuário" class="form-control">
+                    <label>Senha:</label>
+                    <input type="password" name="password" placeholder="Digite sua senha" class="form-control"><br>
+                    <button type="submit" class="btn btn-info">Entrar</button>
+                </div>
+            </form><br>
+            {% for message in messages %}
+                <div align="center" class="container alert alert-warning">
+                    <strong>Erro:   </strong> {{ message }}
+                </div>
+            {% endfor %}
         </div>
-    </form><br>
-    {% for message in messages %}
-        <div align="center" class="container alert alert-warning">
-            <strong>Erro:   </strong> {{ message }}
-        </div>
-    {% endfor %}
-
+    </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
