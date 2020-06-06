@@ -19,3 +19,7 @@ class Evento(models.Model):
 
     def get_data_br_evento(self):
         return self.data_evento.strftime('%d/%m/%y %H:%M')
+
+    #funcao criada para retornar como string na hora de alterar registro
+    def get_data_input_evento(self):
+        return self.data_evento.strftime('%Y-%m-%dT%H:%M')
