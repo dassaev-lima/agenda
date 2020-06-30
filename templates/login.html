@@ -6,12 +6,14 @@
     <title>Title</title>
 </head>
 <body>
-
-<h2 class="text-center">Login</h2>
+    <br><br><br><br>
+    <h2 class="text-center">Login</h2>
     <div class="container">
         <div class="row">
-            <form action="submit" method="POST" class="form-group"> {% csrf_token %}
-                <div align="center">
+            <div class="col-md-4"></div>
+            <div class="col-sm-12 col-md-4">
+                <form action="submit" method="POST" class="form-group"> {% csrf_token %}
+                <div>
                     <label>Usuário:</label>
                     <input type="text" name="username" placeholder="Digite seu usuário" class="form-control">
                     <label>Senha:</label>
@@ -24,6 +26,8 @@
                     <strong>Erro:   </strong> {{ message }}
                 </div>
             {% endfor %}
+            </div>
+            <div class="col-md-4"></div>
         </div>
     </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
